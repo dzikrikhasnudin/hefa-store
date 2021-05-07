@@ -133,3 +133,39 @@ footer .nav-link:hover {
 .designed-by p span {
     color: #8b8b8b;
 }
+
+/* Product Description */
+.product-description {
+    background-color: #f9f9f9;
+    height: 350px;
+}
+
+.product-description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+    font-size: 16px;
+    color: #444444;
+    font-weight: 200;
+    line-height: 28px;
+}
+
+
+.product-review {
+    height: 300px;
+    overflow: scroll;
+}
+
+.product-review h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.product-review p {
+    font-size: 14px !important;
+}
