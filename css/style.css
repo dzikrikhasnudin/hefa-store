@@ -46,7 +46,18 @@ body {
 .features p,
 .designer p {
     font-weight: 200;
-    color: #343838;
+    color: #3d3d3d;
+}
+
+footer p,
+footer .nav-link {
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+footer .nav-link:hover {
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .figure h5 {
@@ -71,5 +82,4 @@ body {
 
 .figure-img:hover a {
     opacity: 1;
-
 }
