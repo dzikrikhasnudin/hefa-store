@@ -37,14 +37,16 @@ body {
 }
 
 .features h3,
-.designer h3 {
+.designer h3,
+.similiar-product h3 {
     font-family: 'Lora';
     font-weight: 700;
     color: #005F6B;
 }
 
 .features p,
-.designer p {
+.designer p,
+.similiar-product p {
     font-weight: 200;
     color: #3d3d3d;
 }
@@ -168,4 +170,9 @@ footer .nav-link:hover {
 
 .product-review p {
     font-size: 14px !important;
+}
+
+.similiar-product {
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
