@@ -38,7 +38,8 @@ body {
 
 .features h3,
 .designer h3,
-.similiar-product h3 {
+.similiar-product h3,
+.cart-header h3 {
     font-family: 'Lora';
     font-weight: 700;
     color: #005F6B;
@@ -46,7 +47,8 @@ body {
 
 .features p,
 .designer p,
-.similiar-product p {
+.similiar-product p,
+.cart-header p {
     font-weight: 200;
     color: #3d3d3d;
 }
@@ -89,6 +91,10 @@ footer .nav-link:hover {
 /* Breadcrumb */
 .breadcrumb {
     margin-top: 100px;
+}
+
+.cart-breadcrumb {
+    margin-top: 50px;
 }
 
 .product-thumbnail-container {
